@@ -19,30 +19,30 @@
         legend: {
             "align": "left",
             "top": "70",
-            "right": "80",
+            "left": "80",
             "orient": "vertical",
-            data: ['Vote of Yes', 'Vote of No', 'Vote of Abstain', 'Vote of Absent', 'Vote of Present']
+            data: ['Yes', 'No', 'Abstain', 'Absent', 'Present']
         },
         series: [{
-            name: '访问来源',
+            name: 'Type of Vote',
             type: 'pie',
             radius: '55%',
             center: ['50%', '60%'],
             data: [{
                 value: 8077,
-                name: 'Vote of Yes'
+                name: 'Yes'
             }, {
                 value: 9728,
-                name: 'Vote of No'
+                name: 'No'
             }, {
                 value: 993,
-                name: 'Vote of Abstain'
+                name: 'Abstain'
             }, {
                 value: 7545,
-                name: 'Vote of Absent'
+                name: 'Absent'
             }, {
                 value: 539,
-                name: 'Vote of Present'
+                name: 'Present'
             }],
             itemStyle: {
                 emphasis: {
